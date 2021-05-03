@@ -1,0 +1,9 @@
+version: "3.2"
+
+services:
+  api:
+    image: registry.gitlab.com/test/api
+    container_name: api
+    restart: always
+    ports:
+      - 9000:9000
